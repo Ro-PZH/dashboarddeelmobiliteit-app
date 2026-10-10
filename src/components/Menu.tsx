@@ -411,7 +411,14 @@ function Menu({
       </Link>
     </>
   }
-  
+
+  // Guests already have the left sidebar menu on these pages; the bottom
+  // menu belongs to the map.
+  const isSidebarPage = sidebarMenuPathPrefixes.some((prefix) => (
+    pathName === prefix || pathName?.startsWith(`${prefix}/`)
+  ));
+  if (! isLoggedIn && isSidebarPage) return null;
+
   return (
     <div className={menuClassName}>
       <div className="

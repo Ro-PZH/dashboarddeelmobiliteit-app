@@ -750,14 +750,14 @@ function App() {
             } />
             <Route path="/functionaliteiten" element={
               <Overlay>
-                <SidebarLayout title="Wat kun je ermee?" contentWidth="900px">
+                <SidebarLayout title="Wat kun je ermee?" contentWidth="100%">
                   <Features />
                 </SidebarLayout>
               </Overlay>
             } />
             <Route path="/veelgestelde-vragen" element={
               <Overlay>
-                <SidebarLayout title="Veelgestelde vragen" contentWidth="900px">
+                <SidebarLayout title="Veelgestelde vragen" contentWidth="100%">
                   <VeelgesteldeVragen />
                 </SidebarLayout>
               </Overlay>
@@ -860,21 +860,21 @@ function App() {
         } />
         <Route path="/functionaliteiten" element={
           <Overlay>
-            <SidebarLayout title="Wat kun je ermee?" contentWidth="900px">
+            <SidebarLayout title="Wat kun je ermee?" contentWidth="100%">
               <Features />
             </SidebarLayout>
           </Overlay>
         } />
         <Route path="/veelgestelde-vragen" element={
           <Overlay>
-            <SidebarLayout title="Veelgestelde vragen" contentWidth="900px">
+            <SidebarLayout title="Veelgestelde vragen" contentWidth="100%">
               <VeelgesteldeVragen />
             </SidebarLayout>
           </Overlay>
         } />
         <Route path="/gebruikers" element={
           <Overlay>
-            <SidebarLayout title="Gebruikers" contentWidth="900px">
+            <SidebarLayout title="Gebruikers" contentWidth="100%">
               <LogoGrid />
             </SidebarLayout>
           </Overlay>
