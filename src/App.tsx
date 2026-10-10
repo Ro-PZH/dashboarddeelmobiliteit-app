@@ -24,6 +24,7 @@ import FilterbarDesktop from './components/Filterbar/FilterbarDesktop.jsx';
 import FilterbarMobile from './components/Filterbar/FilterbarMobile.jsx';
 import About from './components/About/About.jsx';
 import Features from './components/Features/Features';
+import VeelgesteldeVragen from './components/VeelgesteldeVragen/VeelgesteldeVragen';
 import Tour from './components/Tour/Tour.jsx';
 import Overlay from './components/Overlay/Overlay.jsx';
 import Misc from './components/Misc/Misc.jsx';
@@ -753,6 +754,13 @@ function App() {
                 </SidebarLayout>
               </Overlay>
             } />
+            <Route path="/veelgestelde-vragen" element={
+              <Overlay>
+                <SidebarLayout title="Veelgestelde vragen" contentWidth="900px">
+                  <VeelgesteldeVragen />
+                </SidebarLayout>
+              </Overlay>
+            } />
             <Route path="/export" element={
               <Overlay>
                 <SidebarLayout title="Exporteer data">
@@ -853,6 +861,13 @@ function App() {
           <Overlay>
             <SidebarLayout title="Wat kun je ermee?" contentWidth="900px">
               <Features />
+            </SidebarLayout>
+          </Overlay>
+        } />
+        <Route path="/veelgestelde-vragen" element={
+          <Overlay>
+            <SidebarLayout title="Veelgestelde vragen" contentWidth="900px">
+              <VeelgesteldeVragen />
             </SidebarLayout>
           </Overlay>
         } />

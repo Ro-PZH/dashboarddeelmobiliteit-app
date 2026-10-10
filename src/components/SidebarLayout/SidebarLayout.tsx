@@ -14,6 +14,7 @@ import {
   Building2,
   Receipt,
   Mail,
+  HelpCircle,
   LucideIcon
 } from 'lucide-react';
 
@@ -58,6 +59,7 @@ const loggedInSections: SidebarMenuSection[] = [
     items: [
       { title: 'Over', link: '/over', icon: Info },
       { title: 'Wat kun je ermee?', link: '/functionaliteiten', icon: Sparkles },
+      { title: 'Veelgestelde vragen', link: '/veelgestelde-vragen', icon: HelpCircle },
       { title: 'Documentatie', link: '/docs', icon: BookOpen },
     ],
   },
@@ -85,6 +87,7 @@ const guestSections: SidebarMenuSection[] = [
     title: 'Menu',
     items: [
       { title: 'Wat kun je ermee?', link: '/functionaliteiten', icon: Sparkles },
+      { title: 'Veelgestelde vragen', link: '/veelgestelde-vragen', icon: HelpCircle },
       { title: 'Over', link: '/over', icon: Info },
       { title: 'Documentatie', link: '/docs', icon: BookOpen },
       { title: 'Datafeeds', link: '/active_feeds', icon: Rss },
