@@ -80,6 +80,7 @@ const loggedInSections: SidebarMenuSection[] = [
 export const sidebarMenuPathPrefixes = [
   ...loggedInSections.flatMap((section) => section.items.map((item) => item.link)),
   '/admin',
+  '/gebruikers',
 ];
 
 const guestSections: SidebarMenuSection[] = [
@@ -89,6 +90,7 @@ const guestSections: SidebarMenuSection[] = [
       { title: 'Wat kun je ermee?', link: '/functionaliteiten', icon: Sparkles },
       { title: 'Veelgestelde vragen', link: '/veelgestelde-vragen', icon: HelpCircle },
       { title: 'Over', link: '/over', icon: Info },
+      { title: 'Gebruikers', link: '/gebruikers', icon: Building2 },
       { title: 'Documentatie', link: '/docs', icon: BookOpen },
       { title: 'Datafeeds', link: '/active_feeds', icon: Rss },
     ],
