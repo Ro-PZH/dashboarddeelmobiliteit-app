@@ -748,7 +748,7 @@ function App() {
             } />
             <Route path="/functionaliteiten" element={
               <Overlay>
-                <SidebarLayout title="Dashboard Deelmobiliteit functionaliteiten" contentWidth="900px">
+                <SidebarLayout title="Wat kun je ermee?" contentWidth="900px">
                   <Features />
                 </SidebarLayout>
               </Overlay>
@@ -851,7 +851,7 @@ function App() {
         } />
         <Route path="/functionaliteiten" element={
           <Overlay>
-            <SidebarLayout title="Dashboard Deelmobiliteit functionaliteiten" contentWidth="900px">
+            <SidebarLayout title="Wat kun je ermee?" contentWidth="900px">
               <Features />
             </SidebarLayout>
           </Overlay>

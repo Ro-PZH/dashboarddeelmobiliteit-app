@@ -94,9 +94,9 @@ const IntroModal = ({ pathName }: IntroModalProps) => {
       }}
     >
       <p className="text-gray-700 leading-relaxed mb-6">
-        Het Dashboard Deelmobiliteit is een webtool van en voor overheden die de
-        ontwikkelingen rond deelmobiliteit op de voeten willen volgen. Met de
-        informatie uit het Dashboard Deelmobiliteit kunnen overheden hun beleid
+        Het Dashboard Deelmobiliteit toont vrijwel alle deelvoertuigen in
+        Nederland. Het is open source software van en voor overheden: zij zien
+        hiermee hoe deelmobiliteit zich ontwikkelt, en kunnen zo hun beleid
         ontwikkelen, evalueren en bijsturen.
       </p>
       <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:justify-end">

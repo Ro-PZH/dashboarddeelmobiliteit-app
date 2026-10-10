@@ -57,7 +57,7 @@ const loggedInSections: SidebarMenuSection[] = [
     title: 'Help',
     items: [
       { title: 'Over', link: '/over', icon: Info },
-      { title: 'Functionaliteiten', link: '/functionaliteiten', icon: Sparkles },
+      { title: 'Wat kun je ermee?', link: '/functionaliteiten', icon: Sparkles },
       { title: 'Documentatie', link: '/docs', icon: BookOpen },
     ],
   },
@@ -84,7 +84,7 @@ const guestSections: SidebarMenuSection[] = [
   {
     title: 'Menu',
     items: [
-      { title: 'Functionaliteiten', link: '/functionaliteiten', icon: Sparkles },
+      { title: 'Wat kun je ermee?', link: '/functionaliteiten', icon: Sparkles },
       { title: 'Over', link: '/over', icon: Info },
       { title: 'Documentatie', link: '/docs', icon: BookOpen },
       { title: 'Datafeeds', link: '/active_feeds', icon: Rss },

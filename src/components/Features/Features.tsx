@@ -13,7 +13,11 @@ import DemoHubsMap from './demo/DemoHubsMap';
 import DemoPrestatiesOverview from './demo/DemoPrestatiesOverview';
 
 const introMarkdown = `
-Het Dashboard Deelmobiliteit is een webtool van en voor overheden die de ontwikkelingen rond deelmobiliteit op de voeten willen volgen. Met de informatie uit het Dashboard Deelmobiliteit kunnen overheden hun beleid ontwikkelen, evalueren en bijsturen. &raquo; [Over het Dashboard Deelmobiliteit](/over)
+Het Dashboard Deelmobiliteit toont vrijwel alle deelvoertuigen in Nederland. Het is open source software van en voor overheden: zij zien hiermee hoe deelmobiliteit zich ontwikkelt, en kunnen zo hun beleid ontwikkelen, evalueren en bijsturen.
+
+Denk aan: Waar staan voertuigen? Hoe lang en waar staan deelvoertuigen ongebruikt in de openbare ruimte? Hoe vaak worden de deelvoertuigen verhuurd? In welke wijken en op welke tijdstippen zijn deelvoertuigen populair?
+
+Niet-ingelogde gebruikers kunnen zien waar deelvoertuigen staan. Voor ingelogde gebruikers is meer functionaliteit beschikbaar. Zie hieronder een aantal voorbeelden.
 `;
 
 const aanbodMarkdown = `
